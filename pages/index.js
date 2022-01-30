@@ -87,7 +87,9 @@ export default function HomePage() {
 
       {news.map((item, key) => (
         <a
-          href={`https://genshin.mihoyo.com/vi/news/detail/${item.id}`}
+          href={`https://genshin.mihoyo.com/${
+            locale == "chs" || locale == "cht" ? "zh-tw" : locale
+          }/news/detail/${item.id}`}
           target="_blank"
           key={key}
           rel="noreferrer"
