@@ -1,0 +1,848 @@
+{
+  "sidebar": {
+        "fishing_rods": "Fishing Rod",
+    "fishes": "Fishes",
+    "baits": "Baits",
+    "weapon_materials": "Weapon Materials",
+    "talent_lvl_up_materials": "Talent Level Up Materials",
+    "local_materials": "Local Materials",
+    "jewels_materials": "Jewels Materials",
+    "elemental_stone_materials": "Elemental Stone Materials",
+    "common_materials": "Common Materials",
+    "ingredients": "Ingredients",
+    "potions": "Potions",
+    "foods": "Foods", "home": "Home",
+    "character": "Karakter",
+    "wishCounter": "Wish Counter",
+    "calculator": "Kalkulator",
+    "database": "Database",
+    "items": "Item",
+    "achievement": "Achievement",
+    "reminder": "Reminder",
+    "todoList": "Todo List",
+    "timeline": "Timeline",
+    "furnishing": "Furnitur",
+    "weapons": "Senjata",
+    "artifacts": "Artifak",
+    "fishing": "Memancing",
+    "settings": "Pengaturan",
+    "donate": "Donasi"
+  },
+  "home": {
+    "welcome": "Selamat Datang di Paimon.moe! 👋",
+    "message": "Your best Genshin Impact companion! Membantu kamu merencanakan apa yang harus di farm dengan kalkulator ascension, juga catat progress mu dengan todo dan wish counter.",
+    "visitor": "{count} pengunjung dalam 7 hari terakhir",
+    "banner": {
+      "featured": [
+        "Eula"
+      ],
+      "summoned": "Pulang",
+      "percentage": "dari semua {rarity}",
+      "avg": "Pity rata-rata",
+      "subtitle": "Dihitung dari data yang dikirim oleh {user} pengguna paimon.moe",
+      "detail": "Perhitungan Wish Pity Global"
+    },
+    "wish": {
+      "message": "Import riwayat wish mu dan datanya bisa disimpan lebih dari 6 bulan! Juga otomatis menghitung pity-mu dan ada statistik tentang wish-mu dengan grafik 📊",
+      "latest": "Wish Terakhir",
+      "banner": "Banner",
+      "time": "Waktu",
+      "name": "Nama",
+      "pity": "Pity",
+      "detail": "Wish Counter"
+    },
+    "reminder": {
+      "message": "Kamu bisa mengatur notifikasi 🔔 pengigat untuk Parametric Transformer dan Hoyolab Login Harian disini! Klik tombol reminder dibawah untuk mulai!",
+      "detail": "Reminder"
+    },
+    "event": {
+      "upcoming": "Event Akan Datang",
+      "current": "Event Sekarang",
+      "detail": "Timeline"
+    },
+    "discord": {
+      "online": "Member Online",
+      "message": "Gabung server Discord untuk informasi mengenai update terbaru! Juga diskusi tentang Genshin Impact dan feedback untuk paimon.moe.",
+      "join": "Gabung Discord"
+    },
+    "items": {
+      "title": "Bisa di Farm Hari Ini",
+      "detail": "Item",
+      "sunday": "Minggu bisa farm semua item 😁"
+    },
+    "calculator": {
+      "title": "🧮 Hitung Ascension dan Talent Book Karakter dan Senjata! Semua hasil perhitungan bisa ditambahkan ke daftar todo, dan juga akan menampilkan berapa resin yang kamu perlukan!",
+      "detail": "Kalkulator"
+    },
+    "twitter": {
+      "title": "Follow my Twitter, akan post tentang apa yang lagi di develop dan update terbaru tentang paimon.moe!",
+      "detail": "Follow Twitter"
+    },
+    "achievement": {
+      "title": "🏆 Lihat dan tandai daftar achievement yang sudah kamu dapat disini",
+      "detail": "Achievement"
+    },
+    "furnishing": {
+      "title": "Cek furnitur apa saja yang kamu perlukan untuk menyelesaikan suatu set. Dan kamu juga bisa melihat beban masing-masing furnitur.",
+      "detail": "Furnitur"
+    }
+  },
+  "characters": {
+    "title": "Karakter",
+    "subtitle": "Angka stat adalah saat level 80 Ascension 6. Kamu juga dapat mengklik judul tabel untuk mengurutkan!",
+    "name": "Nama",
+    "element": "Element",
+    "rarity": "Rarity",
+    "weapon": "Senjata",
+    "talents": "Talent",
+    "passiveTalents": "Talent Pasif",
+    "constellations": "Konstelasi",
+    "const": "Const",
+    "asc": "ASC",
+    "lvl": "LVL",
+    "hp": "HP",
+    "atk": "ATK",
+    "def": "DEF",
+    "hpPercent": "HP%",
+    "atkPercent": "ATK%",
+    "defPercent": "DEF%",
+    "critRate": "CRiT Rate",
+    "critDamage": "CRIT DMG",
+    "em": "Elemental Mastery",
+    "er": "Energy Recharge",
+    "healingBonus": "Healing Bonus",
+    "pyroDamageBonus": "Pyro DMG Bonus",
+    "hydroDamageBonus": "Hydro DMG Bonus",
+    "dendroDamageBonus": "Dendro DMG Bonus",
+    "electroDamageBonus": "Electro DMG Bonus",
+    "cryoDamageBonus": "Cryo DMG Bonus",
+    "anemoDamageBonus": "Anemo DMG Bonus",
+    "physicalDamageBonus": "Physical DMG Bonus",
+    "geoDamageBonus": "Geo DMG Bonus",
+    "sortBy": "Urutkan...",
+    "talentBook": "Buku Talent",
+    "bossItem": "Boss",
+    "ascensionMaterial": "Material Ascension",
+    "talentStats": "Stat Talent",
+    "build": "Build",
+    "source": "Community Character Builds oleh the Genshin Helper Team",
+    "faq": "Constellation dihitung dari data riwayat wish mu. Jadi jika riwayat wish mu yang lama sudah hilang atau kamu membeli karakter nya di shop atau event, jumlah constellation nya mungkin tidak akurat! Namun kamu bisa mengubah nya secara manual dengan menekan tombol pensil disebelah nama karakter."
+  },
+  "wish": {
+    "title": "Wish Counter",
+    "autoImport": "Import Otomatis",
+    "helpAndSetting": "Bantuan & Pengaturan",
+    "helps": "Bantuan",
+    "settings": "Pengaturan",
+    "wishesWorth": "Wish Setara Dengan",
+    "lifetimePulls": "Total Pull",
+    "guarantee": "Dijamin saat {pity}",
+    "name": "Nama",
+    "time": "Waktu",
+    "pity": "Pity",
+    "welcome": "Selamat datang di Paimon.moe Wish Counter! Kamu bisa mengimport riwayat wish dengan menggunakan Import Otomatis.",
+    "welcomeStart1": "Tekan tombol",
+    "welcomeStart2": "diatas untuk mulai",
+    "manual": "Jika kamu ingin memasukkan datanya secara manual, kamu bisa menyalakannya disini:",
+    "manualButton": "Nyalakan Input Manual",
+    "errorBanner": "Waktu banner salah! Coba sesuaikan server di halaman settings. Masih gak bisa? tolong chat di Discord 😅",
+    "globalWishTally": "Perhitungan Pity Wish Global",
+    "pityTooltip": [
+      "Ini adalah pity {rarity} sekarang",
+      "{count}x wish lagi untuk dijamin {rarity}"
+    ],
+    "import": {
+      "title": "Import Riwayat Wish",
+      "faqsButton": "FAQS - BACA DULU",
+      "readFaq": "Baca FAQ",
+      "openFaq": "Buka FAQ",
+      "choosePlatform": "Pilih jenis perangkat Anda",
+      "chooseMethod": "Pilih metode yang diinginkan",
+      "nonew": "Tdk ada wish baru",
+      "importNotice1": "Wish yang diimport akan ditambah atau dihapus sesuai dengan data yang sudah pernah diimport",
+      "importNotice2": "Jika kamu tidak mempunyai data yang tersimpan sebelumnya, wish pertama akan dihitung sebagai pity 1.",
+      "importNotice3": "Harap diingat jika kamu mengimport akun yang berbeda, pastikan sudah memisahkan akun di halaman setting jika tidak ingin data mu tercampur!",
+      "saveData": "Simpan data?",
+      "reCalculating": "Menghitung pity...",
+      "processing": "Memproses",
+      "banner": "Banner",
+      "page": "Halaman",
+      "parsing": "Membaca...",
+      "save": "Simpan",
+      "cancel": "Batal",
+      "cancelling": "Membatalkan...",
+      "importNewWishOnly": "Import wish baru saja",
+      "importNewWishUncheck": "Hapus centang hanya jika kamu ingin mengimport ulang semua riwayat history mu",
+      "import": "Impor",
+      "close": "Tutup",
+      "invalidLink": "Link invalid, silahkan dicek kembali",
+      "errorApi": "Error code dikembalikan dari API MiHoYo, coba lagi nanti!",
+      "errorExpired": "Link telah kadaluwarsa, silakan coba lagi!",
+      "timeout": "Connection timeout, tunggu sebentar dan coba lagi nanti",
+      "differentAccount": "Wish history ini adalah untuk akun lain, pisahkan dulu akun mu di menu Pengaturan!",
+      "invalidData": "Invalid data dikembalikan dari API, coba lagi nanti",
+      "noNewData": "Tidak ada wish baru, silahkan tunggu sekitar 1 jam sampai data wish nya telah terupdate!",
+      "success": "Import berhasil 😀!",
+      "server": "Pilih server mu:",
+      "wishTallyCheck": "Submit pity untuk perhitungan pity global",
+      "wishTally": "Kita sedang melakukan perhitungan pity global! Kamu bisa mensubmit pity mu untuk berpartisipasi. Semua data pity akan dikumpulkan untuk mengetahui berapa pity rata-rata pengguna paimon.moe.",
+      "wishTallyCollected": [
+        "Yang dikumpulkan:",
+        "dan",
+        "pity dari riwayat wish mu"
+      ],
+      "forceUpdateCheck": "Paksa update riwayat wish (nyalakan jika riwayat wish kamu tidak mau terupdate)",
+      "header": [
+        "Import dan backup riwayat history Genshin Impact mu dan simpan lebih dari 6 bulan. Juga secara otomatis menghitung pity mu dan statistik dari riwayat wish mu!",
+        "Kamu juga bisa menyalakan Drive Sync di Setting untuk mengsinkronkan dan backup riwayat wish ke Google Drive mu",
+        "Tolong dicatat bahwa link feedback yang lama tidak bisa digunakan lagi, silahkan ikuti langkah-langkah yang baru dibawah!"
+      ],
+      "faqs": {
+        "title": "Import Riwayat Wish FAQS",
+        "q1": "Cara kerjanya gimana?",
+        "a1": "Riwayat history Genshin Impact sebenarnya adalah sebuah halaman web, jadi kamu bisa mengakses nya dengan url web nya. Ada key sementara yang akan dibuat setelah kamu membuka halaman riwayat wish atau halaman feedback, dan importer ini akan secara otomatis menggunakan API MiHoYo untuk mengambil riwayat wish mu",
+        "q2": "Aman gak? Apakah bisa ke ban?",
+        "a2": "Paimon.moe menggunakan request yang sama yang digunakan di Genshin Impact untuk mengambil riwayat wish nya, dan Paimon.moe tidak bisa mengubah file-file game atau memori game, dan seharusnya aman. Namun gunakan dengan resiko anda sendiri (saya pakai di akun utama saya sih...). Dan kamu masih bisa input data nya secara manual 😀.",
+        "q3": "Akun nya bisa kamu hack dong?",
+        "a3": [
+          "Paimon.moe tidak menyimpan apapun yang berkaitan dengan akun mu (bahkan uid atau nickname mu), jadi jawabannya adalah tidak. Projek ini open source di",
+          ", Saya belum berencana untuk merusak reputasi saya dengan meng-hack akun orang lain, tidak ada gunanya..."
+        ],
+        "q4": "Hey saya coba cek request nya, tapi kok malah me-request ke domain ini, bukan ke API MiHoYo?",
+        "a4": [
+          "Paimon.moe tidak bisa langsung me-request ke API MiHoYo karena",
+          ", jadi request nya di redirect ke proxy cors agar bisa digunakan. Kamu bisa melihat source code nya di",
+          "sini"
+        ],
+        "q5": "Apakah kamu menyimpan key sementara ku atau riwayat history ku?",
+        "a5": [
+          "Paimon.moe tidak menyimpan key mu, dan menggunakan HTTPS untuk mengirim link mu ke proxy cors sehingga bisa digunakan. Paimon.moe akan menyimpan pity 4*, pity 5*, dan informasi wish 5* jika kamu mensubmit wish mu ke perhitungan pity global paimon.moe (tidak ada data pribadi yang disimpan! harap cek",
+          "Kebijakan Privasi",
+          "untuk info lebih lanjut). Kamu bisa tidak mencentang submit pity untuk tidak mengirim data wish. Kemudian semua data riwayat wish mu disimpan pada device masing-masing (atau google drive mu jika kamu menyalakan sync di setting).",
+          "Jika kamu tidak ingin link feedback mu kemana-mana, kamu bisa menggunakan script importer yang akan memproses riwayat history secara lokal di pc mu (opsi PC Local) "
+        ],
+        "q6": "Saya udah coba step-step nya, tapi kok malah dapet API error?",
+        "a6": "Coba pastiin sudah di copy semua text nya (coba select all aja text nya, jangan di potong-potong), mungkin ada yang kelewatan, jadi ada yang terpotong",
+        "q7": "Kok wish nya ada yang gak kebaca!?",
+        "a7": "Riwayat wish yang lebih lama dari 6 akan terhapus di gamenya itu sendiri, jadi paimon.moe tidak bisa membaca wish yang sudah terhapus."
+      },
+      "logLocation": {
+        "global": "%userprofile%\\AppData\\LocalLow\\miHoYo\\Genshin Impact\\output_log.txt",
+        "china": "%userprofile%\\AppData\\LocalLow\\miHoYo\\原神\\output_log.txt"
+      },
+      "guide": {
+        "video": "Video Tutorial",
+        "pc": [
+          "Buka menu Paimon [ESC]",
+          "Klik Masukan",
+          "Tunggu sampai sudah ke-load dan browser mu akan terbuka",
+          "Copy & paste link nya ke input di bawah",
+          "Paste link disini... https://webstatic..."
+        ],
+        "pc2": [
+          "Buka Genshin Impact di PC ini (Jika kamu mempunyai beberapa akun, restart dahulu game nya)",
+          "Kemudian buka riwayat history di dalam game dan tunggu sampai terbuka",
+          "Tekan tombol WINDOWS di keyboard mu, kemudian cari Powershell",
+          "Klik Windows Powershell, kemudian copy & paste script dibawah ke Powershell nya",
+          "iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/1d75c1d37d19eca71591ec8a31178235/raw/b75733bd23e19145bf992da941ffa943619a92b4/getlink_global.ps1'))",
+          "iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/1d75c1d37d19eca71591ec8a31178235/raw/b75733bd23e19145bf992da941ffa943619a92b4/getlink_china.ps1'))",
+          "Kamu bisa mengecek script nya",
+          "disini",
+          "https://gist.github.com/MadeBaruna/1d75c1d37d19eca71591ec8a31178235",
+          "Tekan ENTER kemudian link nya akan di copy ke clipboard mu",
+          "Paste text nya di textbox dibawah",
+          "Paste link nya disini... https://webstatic..."
+        ],
+        "pclog": [
+          "Buka Genshin Impact di PC ini (jika kamu mempunyai beberapa akun, restart dahulu game nya)",
+          "KemKemudian buka riwayat history di dalam game dan tunggu sampai terbuka",
+          "Tekan WINDOWS+R di keyboard mu, kemudian masukkan:",
+          "Notepad akan terbuka, tekan CTRL+F kemudian masukkan:",
+          "Copy semua link dari https://webstatic sampai #/log link nya seperti ini: https://webstatic-sea.mihoyo.com/hk4e/event/e20190909gacha/index.html?*****#/log",
+          "Paste text nya ke textbox dibawah",
+          "Paste link nya disini... https://webstatic..."
+        ],
+        "android": [
+          "Buka Permohonan (di dalam game)",
+          "Tekan Riwayat",
+          "Tunggu sampai sudah ke-load",
+          "Matikan wifi dan data selular",
+          "Tekan refresh di ujung kanan atas",
+          "Halaman nya seharusnya error dan akan menampilkan text dengan warna hitam",
+          "Tekan dan tahan text nya lalu pilih semua, kemudian copy text nya (jangan copy hanya sebagian text nya, jangan dipotong-potong lagi)",
+          "Nyalakan lagi wifi atau data selular mu",
+          "Paste text nya ke input di bawah",
+          "Paste text disini... Webpage not available..."
+        ],
+        "ios": [
+          "Buka menu Paimon",
+          "Tekan Masukan",
+          "Tunggu sampai sudah ke-load dan halaman masukan harusnya akan terbuka",
+          "Tekan Masalah Game",
+          "Tekan Mode Co-Op",
+          "Ada link warna biru di bawah reply nya, klik link nya",
+          "Browser mu akan terbuka, copy link nya dan paste ke input di bawah",
+          "Paste link disini... https://genshin.mihoyo..."
+        ],
+        "ios2": [
+          "Download Stream di App Store",
+          "disini",
+          "https://apps.apple.com/app/stream/id1312141691",
+          "Buka app nya, kemudian allow VPN di system preferences (Settings > General > VPN)",
+          "Install CA (klik Sniff Now on Stream App > Install CA > Sebuah popup akan muncul, tekan allow > CA akan di download",
+          "Buka settings > General > VPN & Device management > Klik Stream Generated CA kemudian install",
+          "Buka Genshin Impact kemudian buka riwayat wish, tetap diam di halaman ini",
+          "Kembali ke App Stream > Pilih I've trusted > Tekan Tombol Sniff Now",
+          "Kembali ke Genshin Impact kemudian buka halaman riwayat wish",
+          "Tunggu sampai halaman nya terbuka",
+          "Kembali ke App Stream > Stop Sniffing",
+          "Klik Sniff History > Pilih reqeust yang berakhiran .json (link nya dimulai dengan https://hk4e-api-os.mihoyo.com/)",
+          "Klik tab Request, kemudian copy link nya dan paste dibawah",
+          "Paste link disini... https://hk4e-api-os.mihoyo.com...",
+          "Jika kamu mendapat masalah, lihat panduan masalah",
+          "https://docs.google.com/document/d/1U8pf9lqKALtMSWI11t_6npYlVOCpIFZZRvhrC_9-2ek/edit"
+        ],
+        "ps": [
+          "Kamu hanya bisa mengimport wish mu jika kamu mempunyai mail yang ada QR Code nya (dipakai untuk membuka event web di hp)",
+          "Buka Genshin Impact di PlayStation mu",
+          "Buka mail event yang ada QR Code nya",
+          "Scan QR Code nya dengan HP mu",
+          "Copy link nya dan paste ke input di bawah",
+          "Paste link disini...",
+          "Paste link disini..."
+        ],
+        "pclocal": [
+          "Jika kamu tidak nyaman dengan menaruh link feedback disini, kamu bisa memproses riwayat wish di pc mu secara lokal. Script ini akan membaca file log di pc mu untuk memproses riwayat history mu.",
+          "Buka Start, kemudian cari Powershell",
+          "Buka Windows Powershell, kemudian copy & paste script berikut di Powershell nya",
+          "iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/9ff8b7a2af11f3002395af7963b5ed18/raw/a281cb0c131e1402885cc7201b73ceacdb139f94/importer.ps1'))",
+          "Kamu bisa me-review script nya",
+          "disini",
+          "https://gist.github.com/MadeBaruna/9ff8b7a2af11f3002395af7963b5ed18",
+          "Tekan enter untuk menjalankan scriptnya, kemudian ikuti petunjuknya disana",
+          "Setelah itu paste hasil dari script nya ke input di bawah",
+          "Paste hasil nya disini...",
+          "Fitur ini masih beta, harap buat backup dulu dengan pergi ke menu Bantuan & Pengaturan kemudian Export ke Excel."
+        ]
+      }
+    },
+    "excel": {
+      "title": "Excel Import",
+      "subtitle": "Pilih darimana asal file excelnya:",
+      "default": "Paimon.moe Export",
+      "takagg": "TakaGG Gacha Export",
+      "genshinwishes": "Export GenshinWishes",
+      "wishtally": "WishTally",
+      "notice": [
+        "Fitur ini masih dalam tahap BETA, harap backup dulu melalui Pengaturan kemudian Export ke Excel!",
+        "Wish dengan waktu dan reward yang sama tidak disentuh (agar wish yg sudah tersimpan tidak tertimpa)",
+        "Hanya akan menambahkan wish di akhir dan di awal, yang artinya tidak ada wish yang dimasukkan di tengah-tengah data yang sudah ada",
+        "Saat ini hanya bisa digunakan untuk reward dengan nama item yang berbahasa INGGRIS"
+      ],
+      "selectFile": {
+        "default": "Drag & drop Paimon.moe file excel kesini, atau klik disini untuk memilih",
+        "takagg": "Drag & drop TakaGG gacha export file excel kesini, atau klik disini untuk memilih",
+        "genshinwishes": "Drag & drop GenshinWishes csv file disini, atau klik disini untuk memilih",
+        "wishtally": "Drag & Drop Wish Tally excel file disini, atau klik disini untuk memilih"
+      },
+      "processing": "Memproses...",
+      "addedOn": "Dimasukkan di bagian:",
+      "beginning": "Awal",
+      "end": "Akhir",
+      "total": "Total",
+      "saveNotice": "Simpan wish yang diimport?",
+      "save": "Simpan",
+      "success": "Excel import sukses 😀!",
+      "errorInvalidFile": "Excel file tidak valid",
+      "errorReadExcel": "Error membaca file excel!",
+      "errorExcelPaimon": "Ini bukan file excel export dari paimon.moe",
+      "errorUnknownItem": "Mendapatkan nama reward yang tidak diketahui"
+    },
+    "help": {
+      "title": "Wish Counter Bantuan & Pengaturan",
+      "exportTitle": "Export & Import Riwayat Wish",
+      "exportMessage": "Kamu bisa export riwayat wish mu ke file excel disini. Kamu juga bisa meng-import excel dari paimon.moe export atau TakaGG Gacha Export.",
+      "export": "Export ke Excel",
+      "exporting": "Sedang meng-export...",
+      "import": "Import dari Excel",
+      "exportFinish": "Export berhasil, harap tunggu sampai file nya sudah ter-download!",
+      "wishTallyTitle": "Submit Perhitungan Pity Wish",
+      "wishTally": "Kita sedang melakukan perhitungan pity global! Kamu bisa mensubmit pity mu untuk berpartisipasi. Semua data pity akan dikumpulkan untuk mengetahui berapa pity rata-rata pengguna paimon.moe.",
+      "wishTallyCollected": [
+        "Yang dikumpulkan:",
+        "dan",
+        "pity dari riwayat wish mu"
+      ],
+      "wishTallySubmit": "Submit Perhitungan Pity Wish",
+      "wishTallyThankyou": "Terimakasih sudah berpartisipasi!",
+      "manualTitle": "Pengaturan Manual Input",
+      "enableManual": "Nyalakan Manual Input",
+      "notice": "Menggunakan Import Otomatis dan Manual Input secara bersamaan tidak direkomendasikan karena belum stabil, dan masih perlu di testing!",
+      "consider": "Pertimbangkan untuk menggunakan Import Otomatis dulu, buka menu nya di tombol di sebelah tombol yang kamu gunakan untuk membuka halaman bantuan ini",
+      "howto": {
+        "title": "Cara Menggunakan Manual Input",
+        "subtitle": "Setelah kamu melakukan x1 pull wish:",
+        "pressWhenYouGet": "Tekan {button} ketika kamu mendapatkan {rarity}★",
+        "p1": "Itu akan otomatis menambahkan total pull, 5★ dan, 4★ pity",
+        "p2": [
+          "Ketika",
+          "pity mencapai 10, angkanya akan otomatis reset menjadi 0"
+        ],
+        "p3": [
+          "Ketika",
+          "pity mencapai 90, angkanya akan otomatis reset menjadi 0"
+        ],
+        "p4": [
+          "Ketika kamu melakukan wish x10 pull, tekan",
+          "tapi counter pity nya tidak akan akurat, karena tidak tahu kapan drop nya terjadi (bisa saja kamu dapat nya saat pull ke 1 atau bisa saja ke 10). Untuk membuat counter nya akurat, kamu perlu mengecek nya di tabel riwayat wish mu dan tabahkan 1-per-1 seperti kamu melakukan 1x pull wish."
+        ],
+        "p5": [
+          "Kamu juga bisa menekan",
+          "untuk mengedit nilai nya secara manual!"
+        ],
+        "p6": [
+          "Tekan tombol panah dibawah untuk melihat detail riwayat mu. Sebuah form akan muncul ketika kamu mendapat",
+          "atau",
+          "Atau kamu bisa menambahkan atau mengedit tabel nya secara manual."
+        ]
+      }
+    },
+    "types": {
+      "beginners": "Beginners' Wish",
+      "standard": "Standard",
+      "character-event": "Event Karakter",
+      "weapon-event": "Event Senjata"
+    },
+    "detail": {
+      "weapon": "Senjata",
+      "character": "Karakter",
+      "time": "Waktu",
+      "pity": "Pity",
+      "name": "Nama",
+      "type": "Tipe",
+      "banner": "Banner",
+      "roll": "#Roll",
+      "totalThisBanner": "Total pull di banner ini",
+      "worth": "Setara dengan",
+      "loading": "Loading... (Kalau tidak selesai-selesai, ganti server di halaman settings)",
+      "guaranteed": "5★ selanjutnya pasti karakter atau senjata promotional",
+      "unknown_3_star": "Unknown"
+    },
+    "tally": {
+      "title": "Perhitungan Pity Wish",
+      "subtitle": "Rata-rata pity dari kiriman pengguna paimon.moe",
+      "update": "Diupdate",
+      "summoned": "Pulang",
+      "wonFiftyFifty": "menang 50:50",
+      "fromFiveStar": "dari semua 5★",
+      "fromFourStar": "dari semua 4★",
+      "fromFourStarFeatured": "dari featured 4★",
+      "show": "Tampilkan",
+      "name": "Nama",
+      "total": "Total",
+      "wishTotal": "Total Wish",
+      "worth": "Bernilai",
+      "weapon": "Senjata",
+      "character": "Karakter",
+      "error": "Data belum tersedia 😞",
+      "pity": "Pity",
+      "median": "5★ Median",
+      "user": "Total User",
+      "detail": "Detail"
+    },
+    "note": [
+      "Wish History tidak update secara otomatis, silahkan import lagi untuk mengupdate history nya!",
+      "Paimon.moe hanya bisa mendapatkan history 6 bulan terakhir karena data history yang lama sudah dihapus di server miHoYo, jadi wish lama mu mungkin akan tidak muncul.",
+      "Data tersimpan di browser mu, jadi datanya akan terhapus jika kamu menghapus cache browser! Nyalakan Google Drive sync di setting untuk membackup datamu!"
+    ]
+  },
+  "calculator": {
+    "titleWeapon": "Kalkulator Senjata",
+    "titleCharacter": "Kalkulator Karakter",
+    "titleResin": "Kalkulator Resin",
+    "titleFriendship": "Kalkulator Exp Friendship",
+    "titleFate": "Kalkulator Harga Fate",
+    "goto": "Ke {where}",
+    "howToUse": "Cara Penggunaan",
+    "guide": {
+      "clickToMaximize": "Klik gambar untuk memperbesar",
+      "howToWeapon": "Cara menggunakan Kalkulator Senjata",
+      "howToCharacter": "Cara menggunakan Kalkulator Karakter"
+    },
+    "weapon": {
+      "calculateAscension": "Hitung Material Ascension?",
+      "selectRarity": "Pilih bintang senjata",
+      "selectWeapon": "Pilih senjata",
+      "current": "Level Senjata, Exp, & Ascension Saat Ini",
+      "inputCurrentLevel": "Masukkan level senjata saat ini...",
+      "inputCurrentExp": "Masukkan exp senjata saat ini...",
+      "intended": "Level Senjata & Ascension Yang Diinginkan",
+      "inputIntendedLevel": "Masukkan level senjata yang diinginkan...",
+      "resource": "Resource yang digunakan",
+      "calculate": "Hitung",
+      "unknownInformation": "Ada beberapa informasi yang tidak diketahui",
+      "ascensionLevel": "Level Ascension",
+      "mora": "Mora (kurang lebih ±40)",
+      "expWasted": "EXP Terbuang",
+      "addToTodo": "Tambah ke Todo List",
+      "addedToTodo": "Sudah ditambahkan ke Todo List"
+    },
+    "character": {
+      "calculateAscension": "Hitung Material Ascension?",
+      "selectCharacter": "Pilih karakter",
+      "current": "Level Karakter, Exp, & Ascension Saat Ini",
+      "inputCurrentLevel": "Masukkan level karakter saat ini...",
+      "inputCurrentExp": "Masukkan exp karakter saat ini...",
+      "intended": "Level Karakter & Ascension Yang Diinginkan",
+      "inputIntendedLevel": "Masukkan level karakter yang diinginkan...",
+      "resource": "Resource yang digunakan",
+      "calculateTalent": "Hitung Material Talent?",
+      "inputTalentLevel": "Masukkan level talent ke 1, 2 dan 3 saat ini",
+      "inputTalentNotice": "Jika warna level nya berbeda, kurangi 3",
+      "inputTalent": [
+        "lvl talent ke 1",
+        "lvl talent ke 2",
+        "lvl talent ke 3"
+      ],
+      "talentToLevel": "ke level",
+      "calculate": "Hitung",
+      "unknownInformation": "Ada beberapa informasi yang tidak diketahui",
+      "ascensionLevel": "Level Ascension",
+      "mora": "Mora (kurang lebih ±40)",
+      "expWasted": "EXP Terbuang",
+      "addToTodo": "Tambah ke Todo List",
+      "addedToTodo": "Sudah ditambahkan ke Todo List",
+      "talent": [
+        "Attack",
+        "Skill",
+        "Burst"
+      ]
+    },
+    "expTable": {
+      "level": "Level",
+      "items": "Items",
+      "wasted": "Exp Terbuang",
+      "mora": "Jumlah Mora"
+    },
+    "resinTable": {
+      "quantity": "Jumlah",
+      "time": "Waktu Menunggu"
+    },
+    "resin": {
+      "currentResin": "Resin Saat Ini",
+      "desiredResin": "Resin Yang Diinginkan",
+      "or": "atau",
+      "inputCurrentResin": "Masukkan jumlah resin sekarang...",
+      "inputDesireResin": "Masukkan jumlah resin yang diinginkan...",
+      "timeFormat": "id",
+      "calculate": "Hitung",
+      "currentTime": "Waktu Sekarang",
+      "fullTime": "Akan terisi pada",
+      "hours": "jam",
+      "minutes": "menit",
+      "seconds": "detik"
+    },
+    "friendship": {
+      "currentLevel": "Friendship Level Sekarang",
+      "currentExp": "Exp Bar Sekarang (Drag Bar-nya)",
+      "randomEventFarm": "Berapa banyak Random Event yang kamu farm tiap hari?",
+      "calculate": "Hitung",
+      "based": "Berdasarkan AR:{ar}",
+      "change": "(ganti di settings)",
+      "result": "Untuk mencapai Friendship level 10 jika kamu menyelesaikan semua daily commission dan menggunakan 180 resin tiap hari",
+      "resultSerenitea": "Jika kamu juga menaruh karakternya di Serenitea Pot (Adeptal Energy Max)",
+      "resultDay": "{result} Hari"
+    },
+    "fate": {
+      "currency": "Pilih Mata Uang...",
+      "firstTime": "Pertama Kali",
+      "amount": "Jumlah",
+      "genesis": "Genesis",
+      "first": "Bonus2x",
+      "total": "Total",
+      "price": "Harga",
+      "totalGenesis": "Total Genesis",
+      "totalPrice": "Total Harga",
+      "calculate": "Hitung berapa banyak Genesis Crystal yang bisa didapatkan dengan {currency}{value}",
+      "calculateFate": "Hitung berapa uang yang diperlukan untuk {value}"
+    }
+  },
+  "items": {
+    "title": "Daftar Item",
+    "subtitle": "Klik gambar item untuk menambahkannya ke todo list",
+    "searchCharacter": "Cari karakter",
+    "searchWeapon": "Cari senjata",
+    "day": "Hari",
+    "material": "Material",
+    "characterWeapons": "Karakter & Senjata",
+    "add": {
+      "rarity": "Pilih Rarity",
+      "amount": "Jumlah",
+      "inputAmount": "Masukkan jumlah...",
+      "cancel": "Batal",
+      "add": "Tambah ke Todo"
+    }
+  },
+  "days": {
+    "Sunday": "Minggu",
+    "Monday": "Senin",
+    "Tuesday": "Selasa",
+    "Wednesday": "Rabu",
+    "Thursday": "Kamis",
+    "Friday": "Jumat",
+    "Saturday": "Sabtu"
+  },
+  "todo": {
+    "title": "Todo List",
+    "summary": "Rangkuman",
+    "empty": [
+      "Belum ada yang ditambahkan 😀",
+      "Tambahkan todo dari halaman Items atau dari Kalkulator!"
+    ],
+    "farmableToday": "Bisa di farm hari ini",
+    "resin": "resin diperlukan",
+    "based": "Berdasarkan AR:{ar} and WL:{wl}",
+    "change": "(ganti di settings)",
+    "approximation": "Perkiraan dikalkulasi berdasarkan data dari",
+    "delete": {
+      "title": "Hapus todo ini?",
+      "cancel": "Batal",
+      "delete": "Hapus"
+    }
+  },
+  "timeline": {
+    "title": "Timeline",
+    "localTime": "Tampilkan sebagai waktu lokal",
+    "starting": "Dimulai dalam",
+    "ending": "Selesai dalam",
+    "live": "Live Sekarang!",
+    "finished": "Sudah Selesai"
+  },
+  "settings": {
+    "version": "Versi Data:",
+    "multiple": "Punya beberapa akun? Pilih akun disini untuk memisahkan data todo dan riwayat wish",
+    "selectAccount": "Pilih akun mu",
+    "reset": "Reset",
+    "delete": "Hapus",
+    "add": "Tambah",
+    "server": "Pilih server mu:",
+    "drive": [
+      "Paimon.moe menggunakan folder Application Data di Google Drive mu untuk menyimpan riwayat wish dan todo list.",
+      "Paimon.moe hanya bisa membaca dan menulis file yang dibuat oleh website ini."
+    ],
+    "driveError": "Google Drive API tidak bisa dimuat",
+    "driveSignIn": "Sign in ke Google Drive",
+    "driveSignOut": "Sign out dari Google Drive",
+    "driveSignInErrorScope": "Drive Sign In gagal! Silahkan login kembali dan cek permission yang diperlukan!",
+    "synced": "Synced",
+    "waiting": "Menunggu...",
+    "syncing": "Syncing...",
+    "syncStatus": "Status Sync:",
+    "lastSync": "Sync Terakhir:",
+    "feedback": "Jika kamu menemukan bug, data yang salah, atau ada feedback, kamu bisa chat di",
+    "or": "atau",
+    "thanks": "Terima Kasih!",
+    "modal": {
+      "notice": "Semua todo dan riwayat wish akan dihapus",
+      "backup": "Kamu bisa backup dulu riwayat history dengan mengexport nya ke file excel!",
+      "cancel": "Batal",
+      "delete": "Hapus",
+      "reset": "Reset"
+    },
+    "changelog": "Changelog",
+    "exportDescription": "Kamu bisa export dan import data Paimon.moe mu disini",
+    "exportButton": "Exprt & Import Data",
+    "export": "Export Data",
+    "download": "Download Data",
+    "import": "Import Data",
+    "selectFile": "Pilih File JSON",
+    "exportInfo": "Download sebuah salinan dari semua data mu di Paimon.moe",
+    "importWarning": "Ingat untuk membackup data mu dengan mengexport nya dulu! Semua data akan ditimpa!",
+    "importContinue": "Lanjutkan",
+    "importSuccess": "Import berhasil! Halaman akan refresh dalam 5 detik...",
+    "importFailed": "Import Gagal!",
+    "email": "Email:"
+  },
+  "privacypolicy": {
+    "title": "Kebijakan Privasi",
+    "subtitle": "Apa yang paimon.moe kumpulkan dan kegunaannya",
+    "collect": [
+      {
+        "title": "Url yang dikunjungi di paimon.moe, referer, browser, sistem operasi, tipe device, negara visitor",
+        "content": [
+          "Paimon.moe menggunakan",
+          "plausible.io",
+          "(analitik yang ramah privasi) sehingga kami bisa melihat apa saja fitur yang digunakan orang-orang, dan kami bisa memprioritaskan fitur apa yang perlu ditambahkan atau ditingkatkan."
+        ]
+      },
+      {
+        "title": "Error dari website paimon.moe",
+        "content": [
+          "Paimon.moe akan mengirim data error yang terjadi di website ini ke",
+          "sentry.io",
+          "sehingga kami bisa mencari tau apa yang salah dan memperbaikinya."
+        ]
+      },
+      {
+        "title": "Wish Pity",
+        "content": [
+          "Paimon.moe akan menyimpan perhitungan pity 4*, perhitungan pity 5*, dan informasi wish 5* (yaitu waktu wish, nama item, angka pity) jika kamu mencentang 'Kirim pity untuk perhitungan pity global' di Auto Import Wish atau secara manual mensubmit di menu bantuan dan pengaturan. Paimon.moe akan menyatukan data-datanya kemudian menghitung pity rata-rata tiap banner dari pengguna paimon.moe. Kamu bisa mengecek nya di",
+          "wish tally"
+        ]
+      }
+    ],
+    "subtitleNotCollect": "Apa yang paimon.moe TIDAK kumpulkan",
+    "notCollect": [
+      "Paimon.moe tidak menyimpan password, uid, username, email, temporary keys, atau feedback url. Jika kamu tertarik, projek nya open source dan kamu bisa mengecek kode nya di",
+      "paimon-moe-api Github",
+      "dan",
+      "paimon-moe Github"
+    ]
+  },
+  "sync": {
+    "message": "Data yang tersimpan pada browser ini tidak sama dengan yang tersimpan pada Google Drive!",
+    "googleDriveData": "Data Google Drive",
+    "localData": "Data Pada Browser Ini",
+    "older": "LEBIH LAMA",
+    "newer": "LEBIH BARU",
+    "useGoogleDriveData": "Gunakan Data Dari Google Drive",
+    "useLocalData": "Gunakan Data Dari Browser Ini",
+    "download": "Download Kedua Data",
+    "lastModified": "Terakhir dimodifikasi",
+    "or": "ATAU"
+  },
+  "footer": {
+    "affliate": "Paimon.moe tidak berafiliasi dengan miHoYo.",
+    "copyright": "Genshin Impact, konten game dan material adalah trademark dan copyright milik miHoYo.",
+    "discord": "Gabung ke Discord",
+    "community": "Link Komunitas",
+    "official": "Link Official"
+  },
+  "donate": {
+    "message": [
+      "Terimakasih! Semoga web nya bermanfaat.",
+      "Saya membuat website ini for fun karena hobi di saat waktu senggang. Pastinya saya akan selalu nambahin fitur-fitur dan update data nya di setiap update, karena saya suka explore game nya.",
+      "Jika kamu ingin donasi, donasimu akan sangat membantu dalam meningkatkan webnya dan memotivasi saya untuk terus menambahkan hal-hal baru ke paimon.moe! Terimakasih banyak dan have fun, semoga kamu menyukainya!",
+      "Jika kamu suka ngoding, kamu juga berkontribusi dalam projek ini di "
+    ],
+    "kofi": "Support di Ko-fi",
+    "trakteer": "Support di Trakteer",
+    "crypto": "Support dengan Crypto"
+  },
+  "reminder": {
+    "notSupported": "Browser mu tidak mensupport notifikasi, silahkan coba browser lain!",
+    "blocked": "Notifikasi di blokir, notifikasi tidak akan bisa terkirim! Silahkan nyalakan notifikasi di browser mu.",
+    "desktop": "Browser dekstop tidak bisa menerima notifikasi jika browser tidak berjalan!",
+    "early": "Notifikasi mungkin akan muncul lebih awal (sekitar 1-10 menit) karena limitasi dalam pengiriman notifikasi.",
+    "allowNotification": "Harap izinkan permintaan notifikasi yang muncul!",
+    "transformer": "Reminder Parametric Transformer",
+    "last": "Masukkan kapan kamu terakhir menggunakan Parametric Transformer",
+    "lastHoyolab": "Masukkan jam berapa kamu ingin diingatkan untuk daily check-in nya",
+    "every": "Setiap hari jam",
+    "countdown": "Masukkan waktu countdown Parametric Transformer (jika kamu tidak ingat waktu pasti nya, kamu perlu mengira-ngira-kannya)",
+    "useLast": "Gunakan waktu terakhir menggunakan",
+    "useCountdown": "Gunakan waktu countdown",
+    "set": "Set Reminder",
+    "checking": "Mengecek reminder tersimpan...",
+    "errorSelect": "Silahkan pilih sisa hari dan jam nya!",
+    "errorSaving": "Error saat menyimpan reminder 🙁",
+    "current": "Reminder saat ini",
+    "hoyolab": "Reminder Hoyolab Daily Check-In",
+    "comingsoon": "Coming Soon!"
+  },
+  "achievement": {
+    "title": "Achievement",
+    "of": "dari",
+    "sort": "Urutkan yang belum didapatkan dulu",
+    "search": "Cari achievement",
+    "commissions": "komisi",
+    "version": "Versi",
+    "type": "Tipe",
+    "searchError": "Tidak dapat menemukan achievement: {query}"
+  },
+  "furnishing": {
+    "title": "Furnitur",
+    "name": "Nama",
+    "energy": "Energi",
+    "load": "Beban",
+    "ratio": "Rasio",
+    "using": "Jumlah",
+    "interior": "Interior",
+    "exterior": "Eksterior",
+    "info": [
+      "Ini menunjukkan berapa beban yang bisa ditampung dalam pulau. Masing-masing furnitur mempunyai nilai beban yang tersembunyi yang bisa dilihat di bawah.",
+      "(Beban maximum belum dikonfirmasi!)"
+    ],
+    "hall": "Aula Utama",
+    "room": "Kamar {number}",
+    "exteriorNum": "Area {number}",
+    "corridor": "Koridor",
+    "inventoryButton": "Inventory",
+    "listButton": "Daftar",
+    "inventory": {
+      "title": "Inventory Furnitur",
+      "subtitle": "Beberapa kategori special seperti dinding tidak ditampilkan",
+      "all": "Semua",
+      "openSets": "Buka Set"
+    },
+    "sets": {
+      "title": "Furnishing Set",
+      "subtitle": "Klik icon furnitur untuk detail, dan kamu bisa klik icon karakter untuk menandai mereka! Buka menu inventory diatas untuk mengisi jumlah furnitur yang kamu punya.",
+      "setPlaced": "Set ditempatkan",
+      "setUnplaced": "Set belum ditempatkan",
+      "inInventory": "Di inventory",
+      "available": "Tersedia",
+      "used": "Digunakan di set lain"
+    }
+  },
+  "weapon": {
+    "title": "Daftar Senjata",
+    "subtitle": "Stat adalah pada level maksimum",
+    "name": "Nama",
+    "type": "Tipe",
+    "rarity": "Rarity",
+    "atk": "ATK",
+    "secondary": "Secondary",
+    "critRate": "CRIT Rate",
+    "critDamage": "CRIT DMG",
+    "em": "Elemental Mastery",
+    "er": "Energy Recharge",
+    "atkPercent": "ATK",
+    "hpPercent": "HP",
+    "defPercent": "DEF",
+    "physicalDamage": "Physical DMG Bonus",
+    "bow": "Bow",
+    "polearm": "Polearm",
+    "sword": "Sword",
+    "catalyst": "Catalyst",
+    "claymore": "Claymore",
+    "ascensionMaterial": "Material Ascension",
+    "asc": "ASC",
+    "lvl": "LVL",
+    "baseAtk": "Base ATK",
+    "recommendedCharacter": "Karakter Rekomendasi"
+  },
+  "artifact": {
+    "title": "Daftar Artifak",
+    "name": "Nama",
+    "maxRarity": "Max★",
+    "bonus2": "Bonus 2 Set",
+    "bonus4": "Bonus 4 Set",
+    "domain": "Domain",
+    "artifact": "Artifak",
+    "setPiece": "Bonus {piece} Set",
+    "recommendedCharacter": "Rekomendasi Karakter {piece} Set"
+  },
+  "fishing": {
+    "title": "Buku Memancing",
+    "subtitle": "Tandai spot memancing sebagai kosong ketika kamu sudah menghabiskan semua ikan untuk memulai timer respawn",
+    "mondstadt": "Mondstadt",
+    "liyue": "Liyue",
+    "inazuma": "Inazuma",
+    "setEmpty": "Set sebagai kosong",
+    "emptyTime": "Waktu ketika spot nya kosong:",
+    "clear": "Hapus",
+    "save": "Simpan",
+    "cancel": "Batal"
+  }
+}
