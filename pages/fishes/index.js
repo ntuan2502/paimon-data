@@ -1,4 +1,4 @@
-import FishCard from "../../components/Fish/FishCard";
+import FishCard from "../../components/fish/FishCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

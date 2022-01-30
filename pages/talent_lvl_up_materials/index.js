@@ -1,4 +1,4 @@
-import TalentLvlUpMaterialCard from "../../components/TalentLvlUpMaterials/TalentLvlUpMaterialCard";
+import TalentLvlUpMaterialCard from "../../components/talentLvlUpMaterials/TalentLvlUpMaterialCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

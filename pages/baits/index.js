@@ -1,4 +1,4 @@
-import BaitCard from "../../components/Baits/BaitCard";
+import BaitCard from "../../components/baits/BaitCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

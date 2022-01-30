@@ -1,4 +1,4 @@
-import JewelsMaterialCard from "../../components/JewelsMaterials/JewelsMaterialCard";
+import JewelsMaterialCard from "../../components/jewelsMaterials/JewelsMaterialCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

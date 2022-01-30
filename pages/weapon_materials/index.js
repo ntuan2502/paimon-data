@@ -1,4 +1,4 @@
-import WeaponMaterialCard from "../../components/WeaponMaterials/WeaponMaterialCard";
+import WeaponMaterialCard from "../../components/weaponMaterials/WeaponMaterialCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

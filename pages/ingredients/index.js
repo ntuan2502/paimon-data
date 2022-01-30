@@ -1,4 +1,4 @@
-import IngredientsCard from "../../components/Ingredients/IngredientCard";
+import IngredientsCard from "../../components/ingredients/IngredientCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

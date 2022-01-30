@@ -1,4 +1,4 @@
-import CommonMaterialCard from "../../components/CommonMaterials/CommonMaterialCard";
+import CommonMaterialCard from "../../components/commonMaterials/CommonMaterialCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";

@@ -1,4 +1,4 @@
-import LocalMaterialCard from "../../components/LocalMaterials/LocalMaterialCard";
+import LocalMaterialCard from "../../components/localMaterials/LocalMaterialCard";
 import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";
