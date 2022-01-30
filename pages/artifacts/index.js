@@ -31,10 +31,10 @@ export default function ArtifactsPage({ artifacts }) {
             {artifacts
               .filter(
                 (artifact) =>
-                  artifact.name.toLowerCase().includes(search) ||
-                  artifact?.one_pc?.toLowerCase().includes(search) ||
-                  artifact?.two_pc?.toLowerCase().includes(search) ||
-                  artifact?.four_pc?.toLowerCase().includes(search)
+                  artifact.name.toLowerCase().includes(search.toLowerCase()) ||
+                  artifact?.one_pc?.toLowerCase().includes(search.toLowerCase()) ||
+                  artifact?.two_pc?.toLowerCase().includes(search.toLowerCase()) ||
+                  artifact?.four_pc?.toLowerCase().includes(search.toLowerCase())
               )
               .sort((a, b) => (a.max_rarity > b.max_rarity ? -1 : 1))
               .map((artifact, index) => (

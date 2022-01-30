@@ -35,7 +35,7 @@ export default function CharacterPage({ characters }) {
             />
             {characters
               .filter((character) =>
-                character.name.toLowerCase().includes(search)
+                character.name.toLowerCase().includes(search.toLowerCase())
               )
               .map((character, key) => (
                 <div key={key}>

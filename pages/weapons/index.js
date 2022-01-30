@@ -29,14 +29,14 @@ export default function WeaponsPage({ weapons }) {
             {weapons
               .filter(
                 (weapon) =>
-                  weapon.name.toLowerCase().includes(search) ||
-                  weapon.description.toLowerCase().includes(search) ||
-                  weapon.bonus.toLowerCase().includes(search) ||
-                  weapon.domain.toLowerCase().includes(search) ||
-                  weapon.type.toLowerCase().includes(search) ||
-                  weapon.stats.primary.toLowerCase().includes(search) ||
-                  weapon.stats.secondary?.toLowerCase().includes(search) ||
-                  weapon.passive.toLowerCase().includes(search)
+                  weapon.name.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.description.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.bonus.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.domain.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.type.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.stats.primary.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.stats.secondary?.toLowerCase().includes(search.toLowerCase()) ||
+                  weapon.passive.toLowerCase().includes(search.toLowerCase())
               )
               .map((weapon, index) => (
                 <WeaponCard weapon={weapon} key={index} />

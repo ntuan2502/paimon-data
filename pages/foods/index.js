@@ -31,12 +31,12 @@ export default function FoodsPage({ foods }) {
       )
       .filter(
         (food) =>
-          food.name.toLowerCase().includes(search) ||
-          food.dish_type.toLowerCase().includes(search) ||
-          food.description.toLowerCase().includes(search) ||
-          food.results.normal.effect.toLowerCase().includes(search) ||
-          food.results.normal.description.toLowerCase().includes(search) ||
-          food.results.special?.character.name.toLowerCase().includes(search)
+          food.name.toLowerCase().includes(search.toLowerCase()) ||
+          food.dish_type.toLowerCase().includes(search.toLowerCase()) ||
+          food.description.toLowerCase().includes(search.toLowerCase()) ||
+          food.results.normal.effect.toLowerCase().includes(search.toLowerCase()) ||
+          food.results.normal.description.toLowerCase().includes(search.toLowerCase()) ||
+          food.results.special?.character.name.toLowerCase().includes(search.toLowerCase())
       );
     setNewFoods(foods);
   }, [selected, search]);

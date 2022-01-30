@@ -14,15 +14,15 @@ export default function AchievementsPage({ achievements }) {
       <title>{trans.sidebar.achievement} | Paimon Data</title>
       </Head>
       <div className="flex p-2 sm:p-5">
-        <div className="sm:w-96 h-[95vh] overflow-auto">
+        <div className="min-w-[120px] max-w-[120px] sm:min-w-[192px] sm:max-w-[384px] h-[95vh] overflow-auto">
           {achievements
             .sort((a, b) => (a.order < b.order ? -1 : 1))
             .map((achievement, key) => (
               <div
                 key={key}
                 onClick={() => setSelected(key)}
-                className={`border-2 ${
-                  key == selected && "bg-yellow-600 text-white"
+                className={`border-2 hover:text-white hover:bg-yellow-600 ${
+                  key == selected && "bg-green-500 text-white"
                 }`}
               >
                 <div className="flex flex-col sm:flex-row items-center cursor-pointer">
@@ -44,10 +44,10 @@ export default function AchievementsPage({ achievements }) {
             .map((item, key) => (
               <div
                 key={key}
-                className="flex flex-col sm:flex-row items-center border-2 hover:bg-yellow-600 hover:text-white"
+                className="flex flex-col relative sm:flex-row sm:items-center border-2 hover:bg-yellow-600 hover:text-white"
               >
                 <img
-                  className="w-20 px-2"
+                  className="w-20 px-2 flex"
                   src={`/images/ui/achievements.png`}
                   alt=""
                 />
@@ -55,7 +55,7 @@ export default function AchievementsPage({ achievements }) {
                   <div className="font-bold">{item.name}</div>
                   <div className="">{item.desc}</div>
                 </div>
-                <div className="px-5">
+                <div className="px-5 absolute top-3 right-3 sm:static">
                   <div className="flex justify-center item-center">
                     <img
                       className="w-10"
