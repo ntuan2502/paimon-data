@@ -71,7 +71,7 @@ export async function getServerSideProps(ctx) {
   const weapon = weapons.find((c) => c.id === params.name);
 
   const basePath =
-    "https://raw.githubusercontent.com/ntuan2502/paimon/main/public";
+    "https://raw.githubusercontent.com/ntuan2502/paimon-data/main/public";
 
   return {
     props: {

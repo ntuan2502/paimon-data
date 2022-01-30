@@ -109,7 +109,7 @@ export async function getServerSideProps(ctx) {
   if (character1.region) region = character1.region;
 
   const basePath =
-    "https://raw.githubusercontent.com/ntuan2502/paimon/main/public";
+    "https://raw.githubusercontent.com/ntuan2502/paimon-data/main/public";
 
   return {
     props: {
