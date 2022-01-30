@@ -3,12 +3,14 @@ import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function CommonMaterialsPage({ commonMaterials }) {
+  const trans = useTrans();
   return (
     <div>
       <Head>
-        <title>Genshin | Common Materials</title>
+      <title>{trans.sidebar.common_materials} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex items-center justify-center">

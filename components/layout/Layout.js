@@ -26,7 +26,7 @@ export default function Layout({ children }) {
             onClick={() => setOpen(false)}
           />
           <MenuIcon
-            className={`fixed top-2 left-2 h-8 w-8 cursor-pointer ${
+            className={`fixed top-2 left-2 z-50 h-8 w-8 cursor-pointer ${
               open && "hidden"
             }`}
             aria-hidden="true"

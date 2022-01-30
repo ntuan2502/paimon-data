@@ -72,6 +72,9 @@ export default function Sidebar() {
                   </>
                 )}
               </Menu>
+              <div className="text-white px-2">
+                  v2.4.0
+              </div>
             </div>
 
             <nav className="px-6">

@@ -3,12 +3,14 @@ import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function PotionsPage({ potions }) {
+  const trans = useTrans();
   return (
     <div>
       <Head>
-        <title>Genshin | Potions</title>
+        <title>{trans.sidebar.potions} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex items-center justify-center">

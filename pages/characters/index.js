@@ -4,13 +4,15 @@ import GenshinData from "genshin-data";
 import { useState } from "react";
 import CharacterCard from "../../components/character/CharacterCard";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function CharacterPage({ characters }) {
+  const trans = useTrans();
   const [search, setSearch] = useState("");
   return (
     <div>
       <Head>
-        <title>Characters</title>
+      <title>{trans.sidebar.character} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex justify-center items-center mx-auto pb-5">

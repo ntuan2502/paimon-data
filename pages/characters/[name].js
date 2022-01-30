@@ -15,7 +15,7 @@ export default function CharacterDetailPage({ character, region, basePath }) {
   return (
     <div>
       <Head>
-        <title>Genshin | {character.name}</title>
+        <title>{character.name} | Paimon Data</title>
         <meta
           itemProp="name"
           content={`${character.name} - ${character.title}`}
@@ -108,14 +108,11 @@ export async function getServerSideProps(ctx) {
   var region = "Mondstadt";
   if (character1.region) region = character1.region;
 
-  const basePath =
-    "https://raw.githubusercontent.com/ntuan2502/paimon-data/main/public";
-
   return {
     props: {
       character,
       region,
-      basePath,
+      basePath: process.env.NEXT_PUBLIC_BASE_PATH,
     },
   };
 }

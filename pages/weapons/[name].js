@@ -11,7 +11,7 @@ export default function WeaponDetailPage({ weapon, basePath }) {
   return (
     <div>
       <Head>
-        <title>Genshin | {weapon.name}</title>
+        <title>{weapon.name} | Paimon Data</title>
         <meta itemProp="name" content={weapon.name} />
         <meta itemProp="description" content={weapon.description} />
         <meta
@@ -65,18 +65,15 @@ WeaponDetailPage.getLayout = function getLayout(page) {
 };
 
 export async function getServerSideProps(ctx) {
-  const { locale, params } = ctx;
+  const { params } = ctx;
   const genshinData = new GenshinData({ language: localLocale(ctx.locale) });
   const weapons = await genshinData.weapons();
   const weapon = weapons.find((c) => c.id === params.name);
 
-  const basePath =
-    "https://raw.githubusercontent.com/ntuan2502/paimon-data/main/public";
-
   return {
     props: {
       weapon,
-      basePath,
+      basePath: process.env.NEXT_PUBLIC_BASE_PATH,
     },
   };
 }

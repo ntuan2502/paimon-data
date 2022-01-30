@@ -3,12 +3,14 @@ import Head from "next/head";
 import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function TalentLvlUpMaterialsPage({ talentLvlUpMaterials }) {
+  const trans = useTrans();
   return (
     <div>
       <Head>
-        <title>Genshin | Talent Lvl Up Materials</title>
+        <title>{trans.sidebar.talent_lvl_up_materials} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex items-center justify-center">

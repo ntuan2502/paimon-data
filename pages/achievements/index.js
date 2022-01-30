@@ -2,14 +2,16 @@ import GenshinData from "genshin-data";
 import Head from "next/head";
 import { useState } from "react";
 import Layout from "../../components/layout/Layout";
+import useTrans from "../../hooks/useTrans";
 import { localLocale } from "../../lib/localLocale";
 
 export default function AchievementsPage({ achievements }) {
+  const trans = useTrans();
   const [selected, setSelected] = useState(0);
   return (
     <>
       <Head>
-        <title>Genshin | Achievements</title>
+      <title>{trans.sidebar.achievement} | Paimon Data</title>
       </Head>
       <div className="flex p-2 sm:p-5">
         <div className="sm:w-96 h-[95vh] overflow-auto">

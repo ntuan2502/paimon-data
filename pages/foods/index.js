@@ -6,6 +6,7 @@ import { Fragment, useEffect, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, SelectorIcon } from "@heroicons/react/solid";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function FoodsPage({ foods }) {
   const types = ["ALL", "SPECIAL", "ATK", "DEF", "RECOVERY", "ADVENTURE"];
@@ -39,11 +40,11 @@ export default function FoodsPage({ foods }) {
       );
     setNewFoods(foods);
   }, [selected, search]);
-
+  const trans = useTrans();
   return (
     <div>
       <Head>
-        <title>Genshin | Foods</title>
+        <title>{trans.sidebar.foods} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex justify-center items-center mx-auto pb-5">

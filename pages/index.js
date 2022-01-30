@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import useTrans from "../hooks/useTrans";
 
 const channels = [
   {
@@ -70,6 +71,7 @@ async function getNews(setNews, channels) {
 }
 export default function HomePage() {
   const [news, setNews] = useState([]);
+  const trans = useTrans();
   const { locale } = useRouter();
   useEffect(() => {
     getNews(
@@ -80,7 +82,7 @@ export default function HomePage() {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>{trans.sidebar.home}</title>
       </Head>
 
       {news.map((item, key) => (

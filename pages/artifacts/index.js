@@ -5,13 +5,15 @@ import Layout from "../../components/layout/Layout";
 import ArtifactCard from "../../components/artifact/ArtifactCard";
 import { useState } from "react";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function ArtifactsPage({ artifacts }) {
+  const trans = useTrans();
   const [search, setSearch] = useState("");
   return (
     <div>
       <Head>
-        <title>Genshin | Artifacts</title>
+        <title>{trans.sidebar.artifacts} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex justify-center items-center mx-auto pb-5">

@@ -4,13 +4,15 @@ import GenshinData from "genshin-data";
 import Layout from "../../components/layout/Layout";
 import { useState } from "react";
 import { localLocale } from "../../lib/localLocale";
+import useTrans from "../../hooks/useTrans";
 
 export default function WeaponsPage({ weapons }) {
   const [search, setSearch] = useState("");
+  const trans = useTrans();
   return (
     <div>
       <Head>
-        <title>Genshin | Weapons</title>
+        <title>{trans.sidebar.weapons} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex justify-center items-center mx-auto pb-5">
