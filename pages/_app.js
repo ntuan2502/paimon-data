@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import "rc-rate/assets/index.css";
 import Head from "next/head";
 import { useEffect } from "react";
-
+import { useRouter } from "next/router";
 export default function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
   useEffect(() => {
@@ -13,6 +13,23 @@ export default function MyApp({ Component, pageProps }) {
       cleanup();
     };
   }, []);
+
+  //GAG
+  const router = useRouter();
+
+  const handleRouteChange = (url) => {
+    window.gtag("config", "G-M1WYMKBKVE", {
+      page_path: url,
+    });
+  };
+
+  useEffect(() => {
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return getLayout(
     <>
       <Head>
@@ -22,6 +39,20 @@ export default function MyApp({ Component, pageProps }) {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3247125224510311"
           crossOrigin="anonymous"
+        ></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-M1WYMKBKVE"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-M1WYMKBKVE');
+            `,
+          }}
         ></script>
       </Head>
       <div id="fb-root"></div>
