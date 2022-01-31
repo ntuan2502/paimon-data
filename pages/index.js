@@ -36,7 +36,7 @@ const channels = [
     channelId: 266,
   },
   {
-    id: "jp",
+    id: "ja",
     channelId: 141,
   },
   {
@@ -100,8 +100,11 @@ export default function HomePage() {
                 className="object-cover"
                 width={384}
                 height={192}
-                src={item.ext[1].value[0].url}
-                alt={item.ext[1].value[0].url}
+                src={
+                  item?.ext[1]?.value[0]?.url ||
+                  "https://uploadstatic-sea.mihoyo.com/contentweb/20220127/2022012718144475978.jpg"
+                }
+                alt=""
               />
             </div>
             <div className="flex flex-col flex-1 gap-5 sm:p-2">

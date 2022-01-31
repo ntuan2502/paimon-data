@@ -59,7 +59,7 @@ export default function CharacterDetailPage({ character, region, basePath }) {
           content={`${basePath}/images/characters/backgrounds/${character.id}.png`}
         />
       </Head>
-      <div className="py-5 px-8">
+      <div className="py-5 px-3 sm:px-8">
         <div className="bg-white flex flex-row flex-wrap">
           <div className="mx-auto w-full">
             <CharacterBackground character={character} region={region} />
