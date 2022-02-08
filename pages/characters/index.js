@@ -33,6 +33,12 @@ export default function CharacterPage({ characters }) {
               rarity="5"
               disabled={true}
             />
+            <CharacterCard
+              id="kamisato_ayato"
+              name="Kamisato Ayato"
+              rarity="5"
+              disabled={true}
+            />
             {characters
               .filter((character) =>
                 character.name.toLowerCase().includes(search.toLowerCase())
