@@ -28,12 +28,6 @@ export default function CharacterPage({ characters }) {
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 2xl:grid-cols-3">
             <CharacterCard
-              id="yae_miko"
-              name="Yae Miko"
-              rarity="5"
-              disabled={true}
-            />
-            <CharacterCard
               id="kamisato_ayato"
               name="Kamisato Ayato"
               rarity="5"

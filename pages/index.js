@@ -63,7 +63,7 @@ const channels = [
 
 async function getNews(setNews, channels) {
   const res = await axios.get(
-    `https://genshin.mihoyo.com/content/yuanshen/getContentList?pageSize=10&pageNum=1&channelId=${channels[0].channelId}`
+    `https://genshin.hoyoverse.com/content/yuanshen/getContentList?pageSize=10&pageNum=1&channelId=${channels[0].channelId}`
   );
   if (res.data.retcode === 0) {
     setNews(res.data.data.list);
@@ -87,7 +87,7 @@ export default function HomePage() {
 
       {news.map((item, key) => (
         <a
-          href={`https://genshin.mihoyo.com/${
+          href={`https://genshin.hoyoverse.com/${
             locale == "chs" || locale == "cht" ? "zh-tw" : locale
           }/news/detail/${item.id}`}
           target="_blank"

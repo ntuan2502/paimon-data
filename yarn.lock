@@ -1079,10 +1079,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-genshin-data@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/genshin-data/-/genshin-data-0.17.1.tgz#af9d7b4e2b4132bd8308d521360c103119bc3470"
-  integrity sha512-pPDUXsHEQZ+lkmo7GYlOjyLJR56DRkeYHfdLL3w+eOrVcOm7X1ODQ5TaPY0gdZdeJmHu76kLkuXKe3b9FcjHqA==
+genshin-data@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/genshin-data/-/genshin-data-0.18.0.tgz#c2ccfd83cfc8c724c0811f3e45c5ace713f77a2f"
+  integrity sha512-B4GgOdRFfYVO0Wiu8wVL3U1WnAs0vz6AnsQ5FAXrsLCnUfXZWiISCLITpiB5/6AwXjON6IGtrsKXcvcc3qwS2A==
 
 get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
   version "1.1.1"

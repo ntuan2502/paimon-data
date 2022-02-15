@@ -4,6 +4,7 @@ import Language from "./Language";
 import { Fragment } from "react";
 import { Transition, Menu } from "@headlessui/react";
 import useTrans from "../../hooks/useTrans";
+import packageInfo from "../../package.json";
 
 function isRoute(route, string) {
   return route.includes(string);
@@ -72,9 +73,7 @@ export default function Sidebar() {
                   </>
                 )}
               </Menu>
-              <div className="text-white px-2">
-                  v2.4.0
-              </div>
+              <div className="text-white px-2">v{packageInfo.version}</div>
             </div>
 
             <nav className="px-6">
