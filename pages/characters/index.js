@@ -12,7 +12,7 @@ export default function CharacterPage({ characters }) {
   return (
     <div>
       <Head>
-      <title>{trans.sidebar.character} | Paimon Data</title>
+        <title>{trans.sidebar.character} | Paimon Data</title>
       </Head>
       <div className="p-2">
         <div className="flex justify-center items-center mx-auto pb-5">
@@ -27,22 +27,11 @@ export default function CharacterPage({ characters }) {
 
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 2xl:grid-cols-3">
-            <CharacterCard
-              id="yelan"
-              name="Yelan"
-              rarity="5"
-              disabled={true}
-            />
+            <CharacterCard id="yelan" name="Yelan" rarity="5" disabled={true} />
             <CharacterCard
               id="kuki_shinobu"
               name="Kuki Shinobu"
               rarity="4"
-              disabled={true}
-            />
-            <CharacterCard
-              id="kamisato_ayato"
-              name="Kamisato Ayato"
-              rarity="5"
               disabled={true}
             />
             {characters
