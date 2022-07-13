@@ -14,8 +14,8 @@ export default function CharacterCard({ id, name, rarity, disabled }) {
             src={`/images/characters/card/character_${id}_card.webp`}
           />
           <div className="mt-8">
-            <p className="text-xl font-bold my-2">
-              {name} {disabled === true ? "(*)" : ""}
+            <p className="text-xl font-bold my-2 capitalize">
+              {id.replace("_", " ")} {disabled === true ? "(*)" : ""}
             </p>
             <div className="border-t-2"></div>
             <div className="flex justify-between">
