@@ -28,7 +28,7 @@ export default function CharacterPage({ characters }) {
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 2xl:grid-cols-3">
             <CharacterCard id="tighnari" rarity="5" disabled={true} />
-            <CharacterCard id="Collei" rarity="4" disabled={true} />
+            <CharacterCard id="collei" rarity="4" disabled={true} />
             <CharacterCard id="dori" rarity="4" disabled={true} />
             {characters
               .filter((character) =>
